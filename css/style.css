@@ -1,0 +1,160 @@
+body{
+    background: rgb(30, 37, 43);
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    width: 1224px;
+    margin: 0 auto;
+}
+/* Шапка */
+.header-logo{
+    font-family: Poppins;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 33px;
+    letter-spacing: 0em;
+    color: rgba(255, 255, 255, 0.9);
+}
+/* Навігація */
+.nav-list-link{
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0em;
+    color: rgba(255, 255, 255, 0.55);     
+}
+/* Авторизація */
+.regist-list-btn{
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0em;
+}
+
+.first-btn{
+    color:rgba(255, 255, 255, 0.78);
+}
+
+.second-btn{
+    color: rgba(253, 245, 255, 1);
+}
+/* Секція герой */
+.section-hero-title{
+    font-family: Poppins;
+    font-size: 50px;
+    font-weight: 500;
+    line-height: 70px;
+    letter-spacing: 0em;
+    max-width: 600px;
+    color: rgba(255, 255, 255, 0.9);
+}
+
+.section-hero-dot{
+    color: rgba(255, 110, 48, 1);
+}
+
+.section-hero-desc{
+    max-width: 487px;
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0em;
+    color: rgba(255, 255, 255, 0.55);
+}
+
+.section-hero-wrap-text::placeholder{
+    color: rgba(131, 122, 147, 1)
+}
+
+.section-hero-wrap-btn{
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0em;
+    color: rgba(255, 255, 255, 1);
+}
+/* Секція Інструменти */
+.section-tools-title{
+    font-family: Poppins;
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 62px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: (255, 255, 255, 0.9);
+}
+
+.section-tools-desc{
+    max-width: 427px;
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.55);
+    margin: 0 auto;
+}
+
+.section-tools-list-title{
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 36px;
+    letter-spacing: 0em;
+    color: rgba(255, 255, 255, 0.78);
+}
+
+.section-tools-list-plans{
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0em;
+    color: rgba(255, 165, 55, 0.55);
+}
+
+.section-tools-list-desc{
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0em;
+    color: rgba(255, 255, 255, 0.55);
+}
+
+.section-tools-share-list-btn{
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0em;
+    color: rgba(255, 255, 255, 0.55);
+}
+
+.second-title{
+    color: rgba(255, 255, 255, 0.9);
+}
+
+.second-plans{
+    color: rgba(255, 165, 55, 1);
+}
+
+.second-desc{
+    color: rgba(255, 255, 255, 0.78);
+}
+
+.second-share-list-btn{
+    color: rgba(255, 255, 255, 1);
+}
+/* Бренди  */
+/* Нове */
+/* Команда */
+/* Довідка */
+/* Підвал */

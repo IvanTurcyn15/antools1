@@ -5,11 +5,23 @@ body{
 }
 
 .container{
-    width: 1224px;
+    max-width: 1224px;
     margin: 0 auto;
 }
 /* Шапка */
+.header{
+    padding-top: 26px;
+}
+
+/* .header-wrap{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+} */
+
 .header-logo{
+    /* display: flex;
+    align-items: center; */
     font-family: Poppins;
     font-size: 22px;
     font-weight: 600;
@@ -18,6 +30,11 @@ body{
     color: rgba(255, 255, 255, 0.9);
 }
 /* Навігація */
+/* .nav-list{
+    display: flex;
+    gap: 45px;
+} */
+
 .nav-list-link{
     font-family: Poppins;
     font-size: 16px;
@@ -27,20 +44,36 @@ body{
     color: rgba(255, 255, 255, 0.55);     
 }
 /* Авторизація */
+/* .regist-list{
+    display: flex;
+    gap: 10px;
+} */
+
 .regist-list-btn{
     font-family: Poppins;
     font-size: 16px;
     font-weight: 600;
     line-height: 24px;
     letter-spacing: 0em;
+    padding: 12px 28px;
 }
 
 .first-btn{
     color:rgba(255, 255, 255, 0.78);
+    background: none;
+    width: 118px;
+    height: 48px;
+    border-style: none;
+    border-radius: 8px;
 }
 
 .second-btn{
     color: rgba(253, 245, 255, 1);
+    background: rgba(255, 110, 48, 1);
+    width: 118px;
+    height: 48px;
+    border-style: none;
+    border-radius: 8px;
 }
 /* Секція герой */
 .section-hero-title{
@@ -72,14 +105,23 @@ body{
 }
 
 .section-hero-wrap-btn{
+    width: 130.43px;
+    height: 48px;
+    border-radius: 8px;
     font-family: Poppins;
     font-size: 16px;
     font-weight: 600;
     line-height: 24px;
     letter-spacing: 0em;
     color: rgba(255, 255, 255, 1);
+    background: rgba(255, 110, 48, 1);
 }
 /* Секція Інструменти */
+.section-tools{
+    padding-top: 200px;
+    padding-bottom: 200px;
+}
+
 .section-tools-title{
     font-family: Poppins;
     font-size: 48px;
@@ -130,12 +172,17 @@ body{
 }
 
 .section-tools-share-list-btn{
+    width: 106px;
+    height: 42px;
+    border-radius: 8px;
     font-family: Poppins;
     font-size: 16px;
     font-weight: 600;
     line-height: 24px;
     letter-spacing: 0em;
     color: rgba(255, 255, 255, 0.55);
+    background: none;
+    border-style: none;
 }
 
 .second-title{
@@ -151,10 +198,301 @@ body{
 }
 
 .second-share-list-btn{
+    width: 106px;
+    height: 42px;
+    border-radius: 8px;
+    border-style: none;
     color: rgba(255, 255, 255, 1);
+    background: rgba(255, 110, 48, 1);
 }
-/* Бренди  */
+
+.section-tools-btn{
+    width: 184px;
+    height: 64px;
+    border-radius: 8px;
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    letter-spacing: 0em;
+    color: rgba(255, 110, 48, 1);
+    margin: 0 auto;
+    display: block;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    background:none;
+}
+/* Бренди */
+.section-brands{
+    padding-top: 200px;
+    padding-bottom: 200px;
+}
+
+.section-brands-title{
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.8);
+}
 /* Нове */
+.section-recent{
+    padding-top: 200px;
+    padding-bottom: 200px;
+}
+
+.section-recent-title{
+    font-family: Poppins;
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 62px;
+    letter-spacing: 0em;
+    color: rgba(255, 255, 255, 0.9);
+}
+
+.section-recent-desc{
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 30px;
+    letter-spacing: 0em;
+    max-width: 427px;
+    color: rgba(255, 255, 255, 0.55);
+}
+
+.section-recent-btn{
+    width: 198px;
+    height: 58px;
+    border-radius: 8px;
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 27px;
+    letter-spacing: 0em;
+    color: rgba(255, 255, 255, 1);
+    background: rgba(255, 110, 48, 1);
+}
+
+.section-recent-list-title{
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 36px;
+    letter-spacing: 0em;
+    color: rgba(255, 255, 255, 0.78);
+}
+
+.section-recent-list-plans{
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0em;
+    color: rgba(255, 165, 55, 0.55);
+}
+
+.section-recent-list-desc{
+    max-width: 245px;
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0em;
+    color: rgba(255, 255, 255, 0.55);
+}
+
+.section-recent-share-list-btn{
+    width: 106px;
+    height: 42px;
+    border-radius: 8px;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0em;
+    color: rgba(255, 255, 255, 0.55);
+    background: none;
+}
+
+.recent-list-title-second{
+    color: rgba(255, 255, 255, 0.9);
+}
+
+.recent-list-plans-second{
+    color: rgba(255, 165, 55, 1);
+}
+
+.recent-list-desc-second{
+    color: rgba(255, 255, 255, 0.78);
+}
+
+.recent-share-list-btn-second{
+    width: 106px;
+    height: 42px;
+    border-radius: 8px;
+    color: rgba(255, 255, 255, 1);
+    background: rgba(255, 110, 48, 1);
+}
 /* Команда */
+.section-team{
+    padding-top: 200px;
+    padding-bottom: 250px;
+}
+
+.section-team-wrap-person-title{
+    font-family: Poppins;
+    font-size: 26px;
+    font-weight: 500;
+    line-height: 39px;
+    letter-spacing: 0.015em;
+    color: rgba(255, 253, 253, 0.78);
+}
+
+.section-team-wrap-person-desc{
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    color: rgba(255, 253, 253, 0.55);
+}
+
+.section-team-desc{
+    max-width: 393px;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0.015em;
+    color: rgba(255, 255, 255, 0.78);
+}
 /* Довідка */
+.section-reference{
+    padding-top: 250px;
+    padding-bottom: 240px;
+}
+
+.section-reference-title{
+    font-family: Poppins;
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 62px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.9);
+}
+
+.section-reference-desc{
+    max-width: 427px;
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.55);
+}
+
+.section-reference-wrap-text::placeholder{
+    color: rgba(131, 122, 147, 1);
+}
+
+.section-reference-wrap-btn{
+    width: 130.43px;
+    height: 48px;
+    border-radius: 8px;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0em;
+    color: rgba(255, 255, 255, 1);
+    background: rgba(255, 110, 48, 1);
+}
 /* Підвал */
+.footer{
+    padding-top: 70px;
+}
+
+.footer-logo{
+    font-family: Poppins;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 33px;
+    letter-spacing: 0em;
+    color: rgba(255, 255, 255, 0.9);
+}
+
+.footer-wrap-about-copy{
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0em;
+    color: rgba(255, 255, 255, 0.9);
+}
+
+.footer-wrap-about-desc{
+    max-width: 260px;
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0em;
+    color: rgba(255, 255, 255, 0.55);
+}
+
+.footer-wrap-contact-title{
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    letter-spacing: 0em;
+    color: rgba(255, 255, 255, 0.9);
+}
+
+.address-list-link{
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0em;
+    color: rgba(255, 255, 255, 0.55);
+}
+
+.footer-wrap-categories-title{
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    letter-spacing: 0em;
+    color: rgba(255, 255, 255, 0.9);
+}
+
+.footer-wrap-categories-desc{
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0em;
+    color: rgba(255, 255, 255, 0.55);
+}
+
+.footer-wrap-info-title{
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    letter-spacing: 0em;
+    color: rgba(255, 255, 255, 0.9);
+}
+
+.footer-wrap-info-desc{
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0em;
+    color: rgba(255, 255, 255, 0.55);
+}

@@ -392,6 +392,7 @@ body{
     letter-spacing: 0em;
     text-align: center;
     color: rgba(255, 255, 255, 0.55);
+    margin: 0 auto;
 }
 
 .section-reference-wrap-text::placeholder{
@@ -412,7 +413,13 @@ body{
 }
 /* Підвал */
 .footer{
-    padding-top: 70px;
+    margin: 70px 0 90px 0;
+    padding: 0 7.5%;
+}
+
+.footer-wrap{
+    display: flex;
+    justify-content: space-between;
 }
 
 .footer-logo{

@@ -13,27 +13,31 @@ body{
     padding-top: 26px;
 }
 
-/* .header-wrap{
+.header-wrap{
     display: flex;
     justify-content: space-between;
     align-items: center;
-} */
+}
 
 .header-logo{
-    /* display: flex;
-    align-items: center; */
+    display: flex;
+    align-items: center;
     font-family: Poppins;
     font-size: 22px;
     font-weight: 600;
     line-height: 33px;
     letter-spacing: 0em;
     color: rgba(255, 255, 255, 0.9);
+    display: inline-block;
+    padding-right: 7,74px;
 }
+
+
 /* Навігація */
-/* .nav-list{
+.nav-list{
     display: flex;
     gap: 45px;
-} */
+}
 
 .nav-list-link{
     font-family: Poppins;
@@ -43,11 +47,17 @@ body{
     letter-spacing: 0em;
     color: rgba(255, 255, 255, 0.55);     
 }
+
+.nav-list-item-second::after{
+    content: "";
+    display: inline-block;
+    background-image: url(../images/Vector.png);
+}
 /* Авторизація */
-/* .regist-list{
+.regist-list{
     display: flex;
     gap: 10px;
-} */
+}
 
 .regist-list-btn{
     font-family: Poppins;
@@ -129,7 +139,7 @@ body{
     line-height: 62px;
     letter-spacing: 0em;
     text-align: center;
-    color: (255, 255, 255, 0.9);
+    color: rgba(255, 255, 255, 0.9);
 }
 
 .section-tools-desc{

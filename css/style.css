@@ -11,6 +11,7 @@ body{
 /* Шапка */
 .header{
     padding-top: 26px;
+    padding-bottom: 58px;
 }
 
 .header-wrap{
@@ -28,10 +29,23 @@ body{
     line-height: 33px;
     letter-spacing: 0em;
     color: rgba(255, 255, 255, 0.9);
-    display: inline-block;
-    padding-right: 7,74px;
+    gap: 8px;
 }
 
+.nav-list-item{
+    display: flex;
+}
+
+.nav-list-item-second::after{
+    content: "";
+    width: 18px;
+    height: 18px;
+    margin-top: 10px;
+    margin-left: 3px;
+    display: inline-block;
+    background-image: url('../images/Vector.png');
+    background-repeat: no-repeat;
+}
 
 /* Навігація */
 .nav-list{
@@ -48,11 +62,6 @@ body{
     color: rgba(255, 255, 255, 0.55);     
 }
 
-.nav-list-item-second::after{
-    content: "";
-    display: inline-block;
-    background-image: url(../images/Vector.png);
-}
 /* Авторизація */
 .regist-list{
     display: flex;
@@ -86,6 +95,13 @@ body{
     border-radius: 8px;
 }
 /* Секція герой */
+.section-hero{
+    padding-top: 104px;
+    background-image: url('../images/section-hero-aside-wrap.png');
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
 .section-hero-title{
     font-family: Poppins;
     font-size: 50px;
@@ -94,6 +110,7 @@ body{
     letter-spacing: 0em;
     max-width: 600px;
     color: rgba(255, 255, 255, 0.9);
+    margin-bottom: 30px;
 }
 
 .section-hero-dot{
@@ -108,14 +125,49 @@ body{
     line-height: 30px;
     letter-spacing: 0em;
     color: rgba(255, 255, 255, 0.55);
+    margin-bottom: 60px;
+}
+
+.section-hero-form{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    width: 497.66px;
+    height: 64px;
+    border-radius: 15px;
+    border: 1.5px solid rgba(50,58,63,1.00);
+    background: rgba(40, 48, 54, 1);
+    padding: 8px 11px 8px 18px;
+    text-align: center;
+}
+
+.section-hero-form::before{
+    width: 24.08px;
+    height: 24px;
+    content: "";
+    display: inline-block;
+    background-image: url('../images/searchsymbol.png');
+    background-repeat: no-repeat;
 }
 
 .section-hero-wrap-text::placeholder{
-    color: rgba(131, 122, 147, 1)
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0em;
+    color:rgba(255, 255, 255, 0.38);
+}
+
+.section-hero-wrap-text{
+    width: 191px;
+    height: 21px;
+    border: 1.5px;
+    background: transparent;
 }
 
 .section-hero-wrap-btn{
-    width: 130.43px;
+    width: 130px;
     height: 48px;
     border-radius: 8px;
     font-family: Poppins;
@@ -125,6 +177,12 @@ body{
     letter-spacing: 0em;
     color: rgba(255, 255, 255, 1);
     background: rgba(255, 110, 48, 1);
+    margin-left: auto;
+}
+
+.section-hero-list{
+    display: flex;
+    margin-top: 110px;
 }
 /* Секція Інструменти */
 .section-tools{
@@ -173,6 +231,7 @@ body{
 }
 
 .section-tools-list-desc{
+    max-width: 326px;
     font-family: Poppins;
     font-size: 16px;
     font-weight: 400;
@@ -235,6 +294,9 @@ body{
 .section-brands{
     padding-top: 200px;
     padding-bottom: 200px;
+    background-image: url(../images/section-brands-bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .section-brands-title{
@@ -245,6 +307,15 @@ body{
     letter-spacing: 0em;
     text-align: center;
     color: rgba(255, 255, 255, 0.8);
+    margin-bottom: 55px;
+}
+
+.section-brands-list{
+    display: flex;
+    justify-content: space-between;
+    gap: 107px;
+    padding-right: 82px;
+    padding-left: 82px;
 }
 /* Нове */
 .section-recent{
@@ -253,6 +324,7 @@ body{
 }
 
 .section-recent-title{
+    margin-bottom: 30px;
     font-family: Poppins;
     font-size: 48px;
     font-weight: 500;
@@ -262,6 +334,7 @@ body{
 }
 
 .section-recent-desc{
+    margin-bottom: 60px;
     font-family: Poppins;
     font-size: 18px;
     font-weight: 500;
@@ -283,6 +356,7 @@ body{
     color: rgba(255, 255, 255, 1);
     background: rgba(255, 110, 48, 1);
 }
+
 
 .section-recent-list-title{
     font-family: Poppins;
@@ -405,12 +479,34 @@ body{
     margin: 0 auto;
 }
 
-.section-reference-wrap-text::placeholder{
-    color: rgba(131, 122, 147, 1);
+.section-reference-form{
+    max-width: 549px;
+    height: 64px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgba(40, 48, 54, 1);
+    border: 1.5px solid rgba(50,58,63,1.00);
+    border-radius: 15px;
+    padding: 8px 12px 8px 24px;
+    margin: 0 auto;
+    margin-top: 60px;
 }
 
+.section-reference-wrap-text::placeholder{
+    color: rgba(255, 255, 255, 0.38);
+    width: 380px;
+    height: 48px;
+}
+
+.section-reference-wrap-text{
+    border: 1.5px;
+    background: transparent;
+}
+
+
 .section-reference-wrap-btn{
-    width: 130.43px;
+    width: 130px;
     height: 48px;
     border-radius: 8px;
     font-family: Poppins;
@@ -422,14 +518,8 @@ body{
     background: rgba(255, 110, 48, 1);
 }
 /* Підвал */
-.footer{
-    margin: 70px 0 90px 0;
-    padding: 0 7.5%;
-}
-
-.footer-wrap{
-    display: flex;
-    justify-content: space-between;
+footer{
+    border-top:0.5px solid rgba(255, 255, 255, 0.15);
 }
 
 .footer-logo{
@@ -458,6 +548,11 @@ body{
     line-height: 25px;
     letter-spacing: 0em;
     color: rgba(255, 255, 255, 0.55);
+}
+
+.footer-wrap-unified{
+    display: flex;
+    gap: 115px;
 }
 
 .footer-wrap-contact-title{

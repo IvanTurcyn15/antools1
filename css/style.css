@@ -99,7 +99,7 @@ body{
     padding-top: 104px;
     background-image: url('../images/section-hero-aside-wrap.png');
     background-repeat: no-repeat;
-    background-position: right;
+    background-position: bottom right;
 }
 
 .section-hero-title{
@@ -210,6 +210,18 @@ body{
     text-align: center;
     color: rgba(255, 255, 255, 0.55);
     margin: 0 auto;
+}
+
+.section-tools-list{
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 120px;
+    row-gap: 25px;
+}
+
+.section-tools-list-item{
+    width: 392px;
+    height: 294px;
 }
 
 .section-tools-list-title{

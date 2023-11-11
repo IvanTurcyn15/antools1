@@ -230,7 +230,6 @@ body{
     display: flex;
     gap: 30px;
     margin-bottom: 30px;
-    margin-top: 34px;
 }
 
 .section-tools-list-title{
@@ -357,6 +356,7 @@ body{
 }
 
 .section-recent-title{
+    margin-top: 20px;
     margin-bottom: 30px;
     font-family: Poppins;
     font-size: 48px;
@@ -390,6 +390,21 @@ body{
     background: rgba(255, 110, 48, 1);
 }
 
+.section-recent-list{
+    max-width: 600px;
+    height: 638px;
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 50px;
+    row-gap: 24px;
+    margin-left: auto;
+}
+
+.section-recent-list-item{
+    max-width: 288px;
+    height: 284px;
+    border-radius: 15px;
+}
 
 .section-recent-list-title{
     font-family: Poppins;

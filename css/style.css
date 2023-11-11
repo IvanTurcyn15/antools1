@@ -215,13 +215,22 @@ body{
 .section-tools-list{
     display: flex;
     flex-wrap: wrap;
-    column-gap: 120px;
-    row-gap: 25px;
+    column-gap: 100px;
+    row-gap: 23px;
+    margin-top: 110px;
 }
 
 .section-tools-list-item{
-    width: 392px;
+    max-width: 392px;
     height: 294px;
+    border-radius: 15px;
+}
+
+.section-tools-list-wrap{
+    display: flex;
+    gap: 30px;
+    margin-bottom: 30px;
+    margin-top: 34px;
 }
 
 .section-tools-list-title{
@@ -250,6 +259,18 @@ body{
     line-height: 30px;
     letter-spacing: 0em;
     color: rgba(255, 255, 255, 0.55);
+}
+
+.section-tools-share-list-wrap{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.section-tools-share-list{
+    display: flex;
+    gap: 12px;
 }
 
 .section-tools-share-list-btn{
@@ -301,6 +322,7 @@ body{
     display: block;
     border: 1px solid rgba(255, 255, 255, 0.1);
     background:none;
+    margin-top: 100px;
 }
 /* Бренди */
 .section-brands{
@@ -531,6 +553,8 @@ body{
 }
 /* Підвал */
 footer{
+    padding-top: 70px;
+    margin-bottom: 100px;
     border-top:0.5px solid rgba(255, 255, 255, 0.15);
 }
 
@@ -541,6 +565,11 @@ footer{
     line-height: 33px;
     letter-spacing: 0em;
     color: rgba(255, 255, 255, 0.9);
+}
+
+.footer-wrap{
+    display: flex;
+    justify-content: space-between;
 }
 
 .footer-wrap-about-copy{
@@ -602,6 +631,10 @@ footer{
     letter-spacing: 0em;
     color: rgba(255, 255, 255, 0.55);
 }
+
+/* .footer-wrap-info{
+    margin-left: 0;
+} */
 
 .footer-wrap-info-title{
     font-family: Poppins;

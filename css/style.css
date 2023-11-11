@@ -346,7 +346,6 @@ body{
 
 .section-brands-list{
     display: flex;
-    justify-content: space-between;
     gap: 107px;
     padding-right: 82px;
     padding-left: 82px;
@@ -559,17 +558,19 @@ footer{
 }
 
 .footer-logo{
+    display: flex;
+    gap: 8px;
     font-family: Poppins;
     font-size: 22px;
     font-weight: 600;
     line-height: 33px;
     letter-spacing: 0em;
     color: rgba(255, 255, 255, 0.9);
+    margin-bottom: 25px;
 }
 
 .footer-wrap{
     display: flex;
-    justify-content: space-between;
 }
 
 .footer-wrap-about-copy{
@@ -582,6 +583,7 @@ footer{
 }
 
 .footer-wrap-about-desc{
+    margin-top: 21px;
     max-width: 260px;
     font-family: Poppins;
     font-size: 14px;
@@ -594,15 +596,23 @@ footer{
 .footer-wrap-unified{
     display: flex;
     gap: 115px;
+    margin-left: auto;
 }
 
 .footer-wrap-contact-title{
+    margin-bottom: 20px;
     font-family: Poppins;
     font-size: 20px;
     font-weight: 500;
     line-height: 30px;
     letter-spacing: 0em;
     color: rgba(255, 255, 255, 0.9);
+}
+
+.address-list{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
 }
 
 .address-list-link{
@@ -614,7 +624,14 @@ footer{
     color: rgba(255, 255, 255, 0.55);
 }
 
+.footer-wrap-categories{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
 .footer-wrap-categories-title{
+    margin-bottom: 20px;
     font-family: Poppins;
     font-size: 20px;
     font-weight: 500;
@@ -632,11 +649,14 @@ footer{
     color: rgba(255, 255, 255, 0.55);
 }
 
-/* .footer-wrap-info{
-    margin-left: 0;
-} */
+.footer-wrap-info{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
 
 .footer-wrap-info-title{
+    margin-bottom: 20px;
     font-family: Poppins;
     font-size: 20px;
     font-weight: 500;

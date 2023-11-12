@@ -325,8 +325,8 @@ body{
 }
 /* Бренди */
 .section-brands{
-    padding-top: 200px;
-    padding-bottom: 200px;
+    padding-top: 55px;
+    padding-bottom: 55px;
     background-image: url(../images/section-brands-bg.png);
     background-repeat: no-repeat;
     background-position: center;
@@ -355,7 +355,18 @@ body{
     padding-bottom: 200px;
 }
 
+.section-recent-box{
+    display: flex;
+    gap: 197px;
+}
+
+.section-recent-info{
+    width: 427px;
+    height: 300px;
+}
+
 .section-recent-title{
+    max-width: 401px;
     margin-top: 20px;
     margin-bottom: 30px;
     font-family: Poppins;
@@ -397,7 +408,6 @@ body{
     flex-wrap: wrap;
     column-gap: 50px;
     row-gap: 24px;
-    margin-left: auto;
 }
 
 .section-recent-list-item{

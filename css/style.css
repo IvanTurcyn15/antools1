@@ -523,8 +523,8 @@ body{
     background-image: url(../images/sign-before.png);
     background-repeat: no-repeat;
     background-position: center;
-    background-repeat: no-repeat;
     background-color: rgb(30, 37, 43);
+    margin-right: 108px;
     
 }
 
@@ -534,14 +534,12 @@ body{
     background-repeat: no-repeat;
     background-position: center;
     background-color:rgb(30, 37, 43);
-    
+    margin-left: 108px;
 }
 
 .section-team-content-wrap{
     display: flex;
     justify-content: center;
-    align-items: center;
-    gap: 57px;
 }
 
 .section-team-wrap-person-title{
@@ -551,6 +549,7 @@ body{
     line-height: 39px;
     letter-spacing: 0.015em;
     color: rgba(255, 253, 253, 0.78);
+    margin-bottom: 2px;
 }
 
 .section-team-wrap-bg{
@@ -562,7 +561,7 @@ body{
 
 .section-team-wrap-desc{
     background-image: url(../images/“.png);
-    display: inline-block;
+    background-position: 7% 3%;
     background-repeat: no-repeat;
 }
 
@@ -570,20 +569,15 @@ body{
     background-image: url(../images/ronald-richards.png);
     width: 399px;
     height: 492px;
-    border: 1px;
     display: flex;
     align-items: flex-end;
     justify-content: flex-end;
-    padding-bottom: 20px;
 }
 
 .section-team-wrap-person{
-    width: 265px;
-    height: 91px;
-    border-radius: 8px;
-    border: 1px;
     background-image: url(../images/Rectangle\ 327.png);
-    padding: 10px 22px 16px 23px;
+    background-repeat: no-repeat;
+    padding: 10px 23px 16px 23px;
 }
 
 .section-team-wrap-desc{
@@ -598,15 +592,19 @@ body{
     line-height: 24px;
     letter-spacing: 0em;
     color: rgba(255, 253, 253, 0.55);
+    margin-bottom: 16px;
 }
 
 .section-team-desc{
-    max-width: 393px;
-    font-family: Roboto;
     font-size: 14px;
     font-weight: 400;
-    line-height: 30px;
+    line-height: 2.1;
     letter-spacing: 0.015em;
+    text-align: left;
+    font-family: Roboto;
+    max-width: 393px;
+    padding: 55px 0px 46px 75px;
+    min-width: 469px;
     color: rgba(255, 255, 255, 0.78);
 }
 

@@ -539,7 +539,7 @@ body{
 
 .section-team-content-wrap{
     display: flex;
-    justify-content: center;
+    align-items: center;
 }
 
 .section-team-wrap-person-title{
@@ -580,10 +580,6 @@ body{
     padding: 10px 23px 16px 23px;
 }
 
-.section-team-wrap-desc{
-    width: 393px;
-    height: 180px;
-}
 
 .section-team-wrap-person-desc{
     font-family: Poppins;
